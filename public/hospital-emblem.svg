@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <!-- 1. The Blue Medical Cross -->
+  <g id="cross">
+    <!-- Horizontal Cross Bar -->
+    <rect x="52" y="142" width="288" height="120" rx="18" ry="18" fill="#1162BD" />
+    <!-- Vertical Cross Bar -->
+    <rect x="136" y="48" width="120" height="308" rx="18" ry="18" fill="#1162BD" />
+  </g>
+
+  <!-- 2. Orthopedic Joint & Bone Structure (White Anatomy inside the cross) -->
+  <g id="bones">
+    <!-- Upper Femur Bone & Condyle -->
+    <path d="M 218 48 
+             L 248 48 
+             L 204 186 
+             C 198 200 188 214 172 222 
+             C 156 230 142 224 135 214 
+             C 126 202 128 186 138 172 
+             C 146 160 160 148 174 142 
+             Z" 
+          fill="#FFFFFF" />
+
+    <!-- Patella (Kneecap segment on left) -->
+    <path d="M 160 166 
+             C 145 174 133 186 128 200 
+             C 123 214 126 228 135 238 
+             C 144 247 156 251 168 249 
+             C 152 245 142 236 137 224 
+             C 131 210 133 196 142 182 
+             C 148 174 154 169 160 166 
+             Z" 
+          fill="#FFFFFF" />
+
+    <!-- Joint gap line between patella and condyle -->
+    <path d="M 162 162 C 150 172 142 186 140 200 C 139 212 144 224 152 234" 
+          fill="none" 
+          stroke="#1162BD" 
+          stroke-width="5" 
+          stroke-linecap="round" />
+
+    <!-- Lower Tibia / Fibula Bone extending downwards -->
+    <path d="M 152 232 
+             C 164 231 178 234 192 243 
+             C 205 252 215 267 220 286 
+             L 245 356 
+             L 216 356 
+             L 200 298 
+             C 197 288 190 280 182 274 
+             C 174 268 164 267 158 271 
+             L 168 356 
+             L 138 356 
+             L 136 292 
+             C 136 274 139 258 144 246 
+             C 146 238 149 234 152 232 
+             Z" 
+          fill="#FFFFFF" />
+
+    <!-- Articular cartilage gap curve between Femur and Tibia -->
+    <path d="M 148 222 C 160 224 174 228 186 235 C 193 240 200 246 204 254" 
+          fill="none" 
+          stroke="#1162BD" 
+          stroke-width="6" 
+          stroke-linecap="round" />
+
+    <!-- Fibula notch gap at lower leg -->
+    <path d="M 194 286 L 208 356" 
+          fill="none" 
+          stroke="#1162BD" 
+          stroke-width="5.5" 
+          stroke-linecap="round" />
+  </g>
+
+  <!-- 3. The Green Orbit Swoosh -->
+  <path d="M 264 64 
+           C 292 60 334 78 344 122 
+           C 354 168 316 238 252 288 
+           C 190 338 108 376 24 382 
+           C 68 348 146 296 206 238 
+           C 256 186 280 128 264 64 
+           Z" 
+        fill="#66BA22" />
+</svg>

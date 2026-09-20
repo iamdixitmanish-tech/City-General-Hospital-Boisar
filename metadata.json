@@ -1,0 +1,6 @@
+{
+  "name": "City General Hospital",
+  "description": "Official landing page for City General Hospital & I.C.U. in Boisar, Palghar featuring OPD consultation schedules, specialized doctors, 24-hour emergency services, and cashless mediclaim facilities.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
